@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Javascript assignment 8</title>
+</head>
+<body>
+    <a href="#" id="myLink">Click On Link!</a>
+
+
+    <div id="gallery">
+        <img src="https://specials-images.forbesimg.com/imageserve/6321aca5df0a9fa9eee9950b/IMG-2758/960x0.jpg?cropX1=63&cropX2=1519&cropY1=104&cropY2=1074" alt="Mobile 1" class="mobile-image" onclick="showAlert('Mobile 1 clicked!')">
+        <img src="https://www.apple.com/newsroom/images/tile-images/Apple_iphone_11-rosette-family-lineup-091019.jpg.news_app_ed.jpg" alt="Mobile 3" class="mobile-image" onclick="showAlert('Mobile 3 clicked!')">
+        <img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-12-r1.jpg" alt="Mobile 3" class="mobile-image" onclick="showAlert('Mobile 3 clicked!')">
+ 
+    </div>
+   
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Grade</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <img
+    src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/Scorpio-N/10817/1690351800434/front-left-side-47.jpg"
+    alt=""
+    onmouseover="src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQok4MddiK9N37-KgmA_bs7H1zF_J1tUfskuyNRKwqDbw&s'"
+    onmouseout="src='https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/Scorpio-N/10817/1690351800434/front-left-side-47.jpg'"
+>
+   <div>
+    <p>Counter Value: <span id="counter">0</span></p>
+    <button onclick="increaseCounter()">Increase</button>
+    <button onclick="decreaseCounter()">Decrease</button>
+</div>
+<script src="app.js"></script>
+   
+</body>
+</html>

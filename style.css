@@ -1,0 +1,35 @@
+#gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.mobile-image {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+#studentTable {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#studentTable th, #studentTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#studentTable th {
+    background-color: #f2f2f2;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
